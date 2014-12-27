@@ -17,14 +17,12 @@ fi
 
 # Config is valid, build it
 
-echo "Building config $CONFIGPATH"
-
 CONFIG=${CONFIGBASEPATH#$PREFIX}
 LOGDIR="$LOGSDIR/${CONFIG//\//_}"
 BUILDLOG="$LOGDIR/buildlog.txt"
 
 echo "BUILDING CONFIG $CONFIG"
-echo "LOGDIR: $LOGDIR"
+echo "BUILD ARTIFACTS: $LOGDIR"
 echo "LOG: $BUILDLOG"
 mkdir -p $LOGDIR
 
@@ -37,7 +35,7 @@ sed -i 's/CONFIG_ARMV7M_TOOLCHAIN_CODESOURCERYL=y/# CONFIG_ARMV7M_TOOLCHAIN_BUIL
 sed -i 's/# CONFIG_ARMV7M_TOOLCHAIN_GNU_EABIL is not set/CONFIG_ARMV7M_TOOLCHAIN_GNU_EABIL=y/g' $CONFIGPATH
 
 # Clean build dir
-git clean -d -f -x nuttx
+git clean -d -f -x nuttx > /dev/null
 
 cd nuttx/tools
 ./configure.sh $CONFIG
