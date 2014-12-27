@@ -9,7 +9,7 @@ LOGSDIR=$BASE/travis_output
 
 IGNORED=`cat .travis_ignored_configs.txt | grep $CONFIGPATH`
 
-if [[ $IGNORED ]]
+if [[ $IGNORED ]] && [[ $IGNORED != "#"* ]]
 then
 	# echo "Ignoring config $CONFIG"
 	exit 0

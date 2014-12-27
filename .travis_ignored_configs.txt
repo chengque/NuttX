@@ -1,3 +1,7 @@
+# Travis CI ignored configs
+# Every line not prepended with a hash (#)
+# will be ignored by the build check tool.
+
 nuttx/configs/amber/hello/defconfig
 nuttx/configs/arduino-due/nsh/defconfig
 nuttx/configs/avr32dev1/nsh/defconfig
@@ -55,7 +59,7 @@ nuttx/configs/lpcxpresso-lpc1768/nsh/defconfig
 nuttx/configs/lpcxpresso-lpc1768/nx/defconfig
 nuttx/configs/lpcxpresso-lpc1768/thttpd/defconfig
 nuttx/configs/lpcxpresso-lpc1768/usbmsc/defconfig
-nuttx/configs/maple/nsh/defconfig
+# nuttx/configs/maple/nsh/defconfig
 nuttx/configs/maple/nx/defconfig
 nuttx/configs/maple/usbnsh/defconfig
 nuttx/configs/mbed/hidkbd/defconfig
@@ -67,7 +71,7 @@ nuttx/configs/mcu123-lpc214x/usbserial/defconfig
 nuttx/configs/micropendous3/hello/defconfig
 nuttx/configs/mikroe-stm32f4/fulldemo/defconfig
 nuttx/configs/mikroe-stm32f4/kostest/defconfig
-nuttx/configs/mikroe-stm32f4/nsh/defconfig
+# nuttx/configs/mikroe-stm32f4/nsh/defconfig
 nuttx/configs/mikroe-stm32f4/nx/defconfig
 nuttx/configs/mikroe-stm32f4/nxlines/defconfig
 nuttx/configs/mikroe-stm32f4/nxtext/defconfig
@@ -117,6 +121,7 @@ nuttx/configs/pic32-starterkit/nsh/defconfig
 nuttx/configs/pic32-starterkit/nsh2/defconfig
 nuttx/configs/pic32mx7mmb/nsh/defconfig
 nuttx/configs/pirelli_dpl10/nsh_highram/defconfig
+# nuttx/configs/px4fmu-v2_upstream/nsh/defconfig
 nuttx/configs/qemu-i486/nsh/defconfig
 nuttx/configs/qemu-i486/ostest/defconfig
 nuttx/configs/rgmp/arm/default/defconfig
@@ -148,6 +153,7 @@ nuttx/configs/sama5d4-ek/at25boot/defconfig
 nuttx/configs/sama5d4-ek/dramboot/defconfig
 nuttx/configs/sama5d4-ek/elf/defconfig
 nuttx/configs/sama5d4-ek/knsh/defconfig
+nuttx/configs/sama5d4-ek/nsh/defconfig
 nuttx/configs/sama5d4-ek/nxwm/defconfig
 nuttx/configs/sama5d4-ek/ramtest/defconfig
 nuttx/configs/samd20-xplained/nsh/defconfig
@@ -178,6 +184,7 @@ nuttx/configs/spark/usbnsh/defconfig
 nuttx/configs/spark/usbserial/defconfig
 nuttx/configs/stm3210e-eval/buttons/defconfig
 nuttx/configs/stm3210e-eval/composite/defconfig
+# nuttx/configs/stm3210e-eval/nsh/defconfig
 nuttx/configs/stm3210e-eval/nsh2/defconfig
 nuttx/configs/stm3210e-eval/nx/defconfig
 nuttx/configs/stm3210e-eval/nxterm/defconfig
@@ -186,6 +193,7 @@ nuttx/configs/stm3210e-eval/usbmsc/defconfig
 nuttx/configs/stm3210e-eval/usbserial/defconfig
 nuttx/configs/stm3220g-eval/dhcpd/defconfig
 nuttx/configs/stm3220g-eval/nettest/defconfig
+nuttx/configs/stm3220g-eval/nsh/defconfig
 nuttx/configs/stm3220g-eval/nsh2/defconfig
 nuttx/configs/stm3220g-eval/nxwm/defconfig
 nuttx/configs/stm3220g-eval/telnetd/defconfig
@@ -214,7 +222,7 @@ nuttx/configs/stm32f4discovery/cxxtest/defconfig
 nuttx/configs/stm32f4discovery/elf/defconfig
 nuttx/configs/stm32f4discovery/kostest/defconfig
 nuttx/configs/stm32f4discovery/netnsh/defconfig
-nuttx/configs/stm32f4discovery/nsh/defconfig
+# nuttx/configs/stm32f4discovery/nsh/defconfig
 nuttx/configs/stm32f4discovery/nxlines/defconfig
 nuttx/configs/stm32f4discovery/pm/defconfig
 nuttx/configs/stm32f4discovery/posix_spawn/defconfig
