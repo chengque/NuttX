@@ -24,9 +24,4 @@ git:
   depth: 500
 
 script:
-  - arm-none-eabi-gcc --version
-  - find nuttx/configs -name \*defconfig -print > configs.txt
-  - cd nuttx/tools
-  - ./configure.sh px4fmu-v2_upstream/nsh
-  - cd ..
-  - make
+  - find nuttx/configs -name \*defconfig -print | xargs -L1 nuttx/tools/build_config.sh
