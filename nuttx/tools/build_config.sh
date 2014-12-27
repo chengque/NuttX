@@ -45,9 +45,11 @@ cd ..
 cp .config $LOGDIR/config
 if ! (make &> $BUILDLOG); then
 	echo -e "\e[31mCONFIG $CONFIG: FAILED BUILD\e[0m\n\n"
+	make distclean &> /dev/null
 	exit 1;
 else
 	echo -e "\e[32mCONFIG $CONFIG: SUCCESSFUL BUILD\e[0m\n\n"
 	cp nuttx $LOGDIR/.
+	make distclean &> /dev/null
 	exit 0;
 fi
