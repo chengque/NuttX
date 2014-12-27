@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 CONFIGPATH=$1
 BASE=`pwd`
