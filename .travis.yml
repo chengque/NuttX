@@ -23,6 +23,8 @@ script:
 - zip -r Buildlogs.zip travis_output
 addons:
   artifacts:
+    paths:
+    - "Buildlogs.zip"
     key:
       secure: zUntHUl8Ji8ZHOehfrXX8vVM9YQbacYHRIodIMc2XKqwbtHHvEFypvq7WVM9glF9RRsbawpD/qwgvmmc7Fq1g5lBD7VIKJPiWSIud/BDiFJiMP0RTjpo7+aBx1cZJjORy1bnrZ0EHtj9R6q7O9PCGwLdGVc8yTgqHVLVe1FN4y4=
     secret:

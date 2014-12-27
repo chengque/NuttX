@@ -40,11 +40,10 @@ cd nuttx/tools
 ./configure.sh $CONFIG
 cd ..
 if ! (make &> $BUILDLOG); then
-	echo -e "\e[31mCONFIG $CONFIG: FAILED BUILD\e[0m\n\n\n"
+	echo -e "\e[31mCONFIG $CONFIG: FAILED BUILD\e[0m\n\n"
 	exit 1;
 else
-	echo "\e[32mCONFIG $CONFIG: SUCCESSFUL BUILD\e[0m\n\n\n"
+	echo -e "\e[32mCONFIG $CONFIG: SUCCESSFUL BUILD\e[0m\n\n"
 	cp nuttx $LOGDIR/.
-	cp nuttx.bin $LOGDIR/.
 	exit 0;
 fi
