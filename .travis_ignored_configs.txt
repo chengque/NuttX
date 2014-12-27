@@ -148,7 +148,6 @@ nuttx/configs/sama5d4-ek/at25boot/defconfig
 nuttx/configs/sama5d4-ek/dramboot/defconfig
 nuttx/configs/sama5d4-ek/elf/defconfig
 nuttx/configs/sama5d4-ek/knsh/defconfig
-nuttx/configs/sama5d4-ek/nsh/defconfig
 nuttx/configs/sama5d4-ek/nxwm/defconfig
 nuttx/configs/sama5d4-ek/ramtest/defconfig
 nuttx/configs/samd20-xplained/nsh/defconfig
@@ -179,7 +178,6 @@ nuttx/configs/spark/usbnsh/defconfig
 nuttx/configs/spark/usbserial/defconfig
 nuttx/configs/stm3210e-eval/buttons/defconfig
 nuttx/configs/stm3210e-eval/composite/defconfig
-nuttx/configs/stm3210e-eval/nsh/defconfig
 nuttx/configs/stm3210e-eval/nsh2/defconfig
 nuttx/configs/stm3210e-eval/nx/defconfig
 nuttx/configs/stm3210e-eval/nxterm/defconfig
@@ -188,7 +186,6 @@ nuttx/configs/stm3210e-eval/usbmsc/defconfig
 nuttx/configs/stm3210e-eval/usbserial/defconfig
 nuttx/configs/stm3220g-eval/dhcpd/defconfig
 nuttx/configs/stm3220g-eval/nettest/defconfig
-nuttx/configs/stm3220g-eval/nsh/defconfig
 nuttx/configs/stm3220g-eval/nsh2/defconfig
 nuttx/configs/stm3220g-eval/nxwm/defconfig
 nuttx/configs/stm3220g-eval/telnetd/defconfig
