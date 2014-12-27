@@ -25,6 +25,7 @@ git:
 
 script:
   - arm-none-eabi-gcc --version
+  - find nuttx/configs -name \*defconfig -print > configs.txt
   - cd nuttx/tools
   - ./configure.sh px4fmu-v2_upstream/nsh
   - cd ..
